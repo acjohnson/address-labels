@@ -12,3 +12,4 @@ guest_list:
       city: "Hollywood"
       state: "CA"
       zip: "12345"
+      email: "awesome@email.com"
