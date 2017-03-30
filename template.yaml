@@ -1,0 +1,14 @@
+---
+guest_list:
+  family:
+    "Full Name of family member":
+      street: "1234 Fake Avenue"
+      city: "Popular City"
+      state: "AZ"
+      zip: "86753"
+  friends:
+    "Full Name of friend":
+      street: "4321 Happy Pl."
+      city: "Hollywood"
+      state: "CA"
+      zip: "12345"
