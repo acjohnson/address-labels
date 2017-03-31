@@ -10,7 +10,7 @@ def _yaml_to_csv(name=None, address=None):
     else:
         email = ''
 
-    return(name + ',,' + address['street'] + ',,' + address['city'] + ',' + address['state'] + ',' + address['zip'] + ',' + email + ',')
+    return(',' + name + ',' + address['street'] + ',,' + address['city'] + ',' + address['state'] + ',' + address['zip'] + ',' + email + ',')
 
 def load_guest_list():
     with open("addresses.yaml", 'r') as stream:
